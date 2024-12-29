@@ -7,7 +7,7 @@ const db = require('./db.js');
 const { init: initAuth } = require('./auth');
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({extended: false}));
 app.set('view engine', 'pug');
