@@ -58,7 +58,7 @@ AUTHENTICATION-BOILERPLATE/
 ├── .gitignore
 ├── auth.js
 ├── db.js
-├── database.sqlite
+├── user.sqlite
 ├── package-lock.json
 ├── package.json
 └── server.js
@@ -67,9 +67,9 @@ AUTHENTICATION-BOILERPLATE/
 3. **Dependencies**
 
 - [Express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js.
-- [Passport.js](https://www.passportjs.org/) - Secure Cookie-based Session Management
-- [Pug](https://pugjs.org/api/getting-started.html) - PostgreSQL driver for Go
-- [SQLite](https://www.sqlite.org/index.html) - Environment variable management
+- [Passport.js](https://www.passportjs.org/) - Authentication middleware for Node.js.
+- [Pug](https://pugjs.org/api/getting-started.html) - High-performance template engine.
+- [SQLite](https://www.sqlite.org/index.html) - Lightweight, disk-based database.
 
 ## Contribution
 Contributions are welcome! Please follow these steps:
